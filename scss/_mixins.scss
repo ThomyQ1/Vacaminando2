@@ -1,0 +1,15 @@
+.mainholder {
+  padding: $textSm;
+  margin: $textSm;
+}
+
+.encabezadosv {
+  @extend .mainholder;
+  text-align: center;
+  font-size: $textBg;
+}
+
+@mixin acomodo2($padding,$margin){
+    padding: $textSm;
+    margin: $textSm;
+}

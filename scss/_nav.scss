@@ -1,2 +1,9 @@
-@import url("https://fonts.googleapis.com/css2?family=Kanit:wght@300&family=Raleway:wght@300&family=Roboto:ital,wght@1,100&display=swap");
-@import "_vars";
+nav {
+  background-color: $mainColor;
+  color: $keyColor;
+
+  img{
+      width: 60px;
+      height: auto;
+  }
+}

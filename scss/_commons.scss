@@ -1,0 +1,182 @@
+.footer-distributed {
+  background-color: $mainColor;
+  color: $keyColor;
+  box-sizing: border-box;
+  width: 100%;
+  text-align: left;
+  padding: 50px 50px 60px 50px;
+  margin-top: 80px;
+}
+
+.footer-distributed .footer-left,
+.footer-distributed .footer-center,
+.footer-distributed .footer-right {
+  display: inline-block;
+  vertical-align: top;
+}
+
+.footer-distributed .footer-left {
+  width: 30%;
+}
+
+.footer-distributed h3 {
+  color: $keyColor;
+  font: normal $textXl;
+  margin: 0;
+}
+
+.footer-distributed h3 span {
+  color: #e0ac1c;
+}
+
+.footer-distributed .footer-links {
+  color: $keyColor;
+  margin: 20px 0 12px;
+}
+
+.footer-distributed .footer-links a {
+  display: inline-block;
+  line-height: 1.8;
+  text-decoration: none;
+  color: inherit;
+}
+
+.footer-distributed .footer-company-name {
+  color: #8f9296;
+  font-size: 14px;
+  font-weight: normal;
+  margin: 0;
+}
+
+.footer-distributed .footer-center {
+  width: 35%;
+}
+
+.footer-distributed .footer-center i {
+  background-color: #33383b;
+  color: $keyColor;
+  font-size: $textBg;
+  width: 38px;
+  height: 38px;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 42px;
+  margin: $textSm $textMd;
+  vertical-align: middle;
+}
+
+.footer-distributed .footer-center i.fa-envelope {
+  font-size: 17px;
+  line-height: 38px;
+}
+
+.footer-distributed .footer-center p {
+  display: inline-block;
+  color: $keyColor;
+  vertical-align: middle;
+  margin: 0;
+}
+
+.footer-distributed .footer-center p span {
+  display: block;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 2;
+}
+
+.footer-distributed .footer-center p a {
+  color: #e0ac1c;
+  text-decoration: none;
+}
+
+.footer-distributed .footer-right {
+  width: 30%;
+}
+
+.footer-distributed .footer-company-about {
+  line-height: 20px;
+  color: #92999f;
+  font-size: 13px;
+  font-weight: normal;
+  margin: 0;
+}
+
+.footer-distributed .footer-company-about span {
+  display: block;
+  color: $keyColor;
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.footer-distributed .footer-icons {
+  margin-top: $textBg;
+}
+
+.footer-distributed .footer-icons a {
+  display: inline-block;
+  width: $textXl;
+  height: $textXl;
+  cursor: pointer;
+  background-color: #33383b;
+  border-radius: 2px;
+  font-size: 20px;
+  color: $keyColor;
+  text-align: center;
+  line-height: $textXl;
+  margin-right: 3px;
+  margin-bottom: 5px;
+}
+
+.footer-distributed .footer-icons a:hover {
+  background-color: #3f71ea;
+}
+
+.footer-links a:hover {
+  color: #3f71ea;
+}
+
+.logo2 {
+  width: 80px;
+  height: auto;
+}
+
+.sr {
+  width: 250px;
+  height: auto;
+  padding: 5px;
+}
+
+.botitas {
+  width: 392px;
+  height: 521px;
+}
+
+.mocasines {
+  width: 390px;
+  height: 512px;
+}
+
+.botitas2 {
+  width: 420px;
+  height: 519px;
+}
+
+.acomodo {
+  padding: $textSm;
+}
+
+.facebook {
+  width: 40px;
+  height: auto;
+}
+
+.instagram {
+  width: 90px;
+  height: auto;
+}
+
+.header {
+  width: 1280px;
+  height: auto;
+}

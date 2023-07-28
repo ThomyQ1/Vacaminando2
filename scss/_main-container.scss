@@ -1,0 +1,26 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: $secondaryColor;
+  color: white;
+  overflow-x: hidden;
+  main {
+    @include acomodo2($textSm,$textSm);
+    h1,
+    h2 {
+      @include acomodo2($textSm,$textSm);
+      text-align: center;
+      font-size: $textBg;
+      h5 {
+        margin: 0;
+        footer {
+          background-color: $mainColor;
+          color: $keyColor;
+          flex-direction: column;
+        }
+      }
+    }
+  }
+}

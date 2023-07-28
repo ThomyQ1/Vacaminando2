@@ -1,0 +1,29 @@
+@media (max-width: 880px) {
+  .footer-distributed .footer-left,
+  .footer-distributed .footer-center,
+  .footer-distributed .footer-right {
+    display: block;
+    width: 100%;
+    margin-bottom: 40px;
+    text-align: center;
+  }
+  .footer-distributed .footer-center i {
+    margin-left: 0;
+  }
+}
+
+/* Ejemplo de consulta de medios para dispositivos con un ancho máximo de 768px */
+@media (max-width: 768px) {
+  .carda{
+    width: 256px;
+    height: auto;
+    object-fit: cover;
+  }
+}
+
+@media (max-width: 768px){
+  .header{
+    width: 560px;
+    height: auto;
+  }
+}
