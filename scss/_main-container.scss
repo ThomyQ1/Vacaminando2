@@ -7,7 +7,7 @@ body {
   color: white;
   overflow-x: hidden;
   main {
-    @include acomodo2($textSm,$textSm);
+    @include acomodo2($textSm,5px);
     h1,
     h2 {
       @include acomodo2($textSm,$textSm);

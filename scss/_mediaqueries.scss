@@ -12,18 +12,20 @@
   }
 }
 
-/* Ejemplo de consulta de medios para dispositivos con un ancho máximo de 768px */
 @media (max-width: 768px) {
-  .carda{
+  .carda {
     width: 256px;
     height: auto;
     object-fit: cover;
   }
 }
 
-@media (max-width: 768px){
-  .header{
-    width: 560px;
+@media (max-width: 768px) {
+  .header {
+    width: 100%;
     height: auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 10px;
   }
 }

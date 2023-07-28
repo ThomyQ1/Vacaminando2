@@ -1,0 +1,137 @@
+.footer-distributed {
+    background-color: $mainColor;
+    color: $keyColor;
+    box-sizing: border-box;
+    width: 100%;
+    text-align: left;
+    padding: 50px 50px 60px 50px;
+    margin-top: 80px;
+  
+    .footer-left {
+      display: inline-block;
+      vertical-align: top;
+      width: 30%;
+  
+      h3 {
+        color: $keyColor;
+        font: normal $textXl;
+        margin: 0;
+  
+        span {
+          color: #e0ac1c;
+        }
+      }
+  
+      .footer-links {
+        color: $keyColor;
+        margin: 20px 0 12px;
+  
+        a {
+          display: inline-block;
+          line-height: 1.8;
+          text-decoration: none;
+          color: inherit;
+        }
+      }
+  
+      .footer-company-name {
+        color: #8f9296;
+        font-size: 14px;
+        font-weight: normal;
+        margin: 0;
+      }
+    }
+  
+    .footer-center {
+      display: inline-block;
+      vertical-align: top;
+      width: 35%;
+  
+      i {
+        background-color: #33383b;
+        color: $keyColor;
+        font-size: $textBg;
+        width: 38px;
+        height: 38px;
+        border-radius: 50%;
+        text-align: center;
+        line-height: 42px;
+        margin: $textSm $textMd;
+        vertical-align: middle;
+  
+        &.fa-envelope {
+          font-size: 17px;
+          line-height: 38px;
+        }
+      }
+  
+      p {
+        display: inline-block;
+        color: $keyColor;
+        vertical-align: middle;
+        margin: 0;
+  
+        span {
+          display: block;
+          font-weight: normal;
+          font-size: 14px;
+          line-height: 2;
+  
+          a {
+            color: #e0ac1c;
+            text-decoration: none;
+          }
+        }
+      }
+    }
+  
+    .footer-right {
+      display: inline-block;
+      vertical-align: top;
+      width: 30%;
+  
+      .footer-company-about {
+        line-height: 20px;
+        color: #92999f;
+        font-size: 13px;
+        font-weight: normal;
+        margin: 0;
+  
+        span {
+          display: block;
+          color: $keyColor;
+          font-size: 18px;
+          font-weight: bold;
+          margin-bottom: 20px;
+        }
+      }
+  
+      .footer-icons {
+        margin-top: $textBg;
+  
+        a {
+          display: inline-block;
+          width: $textXl;
+          height: $textXl;
+          cursor: pointer;
+          background-color: #33383b;
+          border-radius: 2px;
+          font-size: 20px;
+          color: $keyColor;
+          text-align: center;
+          line-height: $textXl;
+          margin-right: 3px;
+          margin-bottom: 5px;
+  
+          &:hover {
+            background-color: #e0ac1c;
+          }
+        }
+      }
+    }
+  
+    .footer-links a:hover {
+      color: #e0ac1c;
+    }
+  }
+  
